@@ -3,7 +3,7 @@ const express = require("express");
 require("../src/db/connection");
 const router = require("./router/router");
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 
 app.use(express.json());
