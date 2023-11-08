@@ -11,5 +11,5 @@ app.use("/api/v1/", router);
 
 app.listen(port, () => {
     console.log(`connection is live at port ${port}`);
-    res.end('Mankar is success');
+    res.send('Mankar is success');
 });
