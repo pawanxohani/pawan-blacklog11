@@ -2,51 +2,51 @@ const mongoose = require('mongoose');
 
 const gyroSchema = new mongoose.Schema({
     acceloX: {
-        type: Number,
+        type: String,
         required: true
     },
     acceloY: {
-        type: Number,
+        type: String,
         required: true
     },
     acceloZ: {
-        type: Number,
+        type: String,
         required: true
     },
     gyroX: {
-        type: Number,
+        type: String,
         required: true
     },
     gyroY: {
-        type: Number,
+        type: String,
         required: true
     },
     gyroZ: {
-        type: Number,
+        type: String,
         required: true
     },
     temperature: {
-        type: Number,
+        type: String,
         required: true
     },
     longitude: {
-        type: Number,
+        type: String,
         required: true
     },
     latitude: {
-        type: Number,
+        type: String,
         required: true
     },
     speed: {
-        type: Number,
+        type: String,
         required: true
     },
     time: {
-        type: Number,
+        type: String,
         required: true
     },
     date: {
-        type: Date,
+        type: String,
         required: true
     }
 })
